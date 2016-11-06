@@ -12,7 +12,7 @@
                   "$match": "."
                 },
                 "name": {
-                  "$match": "​*Pipeline.zip"
+                  "$match": "*Pipeline*.zip"
                 }
               }
             ]
@@ -21,7 +21,7 @@
             "$and": [
               {
                 "path": {
-                  "$match": "*​"
+                  "$match": "*"
                 },
                 "name": {
                   "$match": "*Pipeline*.zip"
