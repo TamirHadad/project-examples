@@ -24,7 +24,7 @@
                   "$match": "*​"
                 },
                 "name": {
-                  "$match": "*Pipeline.zip"
+                  "$match": "*Pipeline*.zip"
                 }
               }
             ]
