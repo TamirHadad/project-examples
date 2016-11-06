@@ -16,14 +16,14 @@
 
 buildscript {
   repositories {
-	maven
-		{ url "https://oss.jfrog.org/oss-snapshot-local" }
+	maven { 
+		url "https://oss.jfrog.org/oss-snapshot-local" 
+	}
 	jcenter()
-
  }
-	dependencies
-		{ classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.4.x-SNAPSHOT" }
-}
+  dependencies { 
+    classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.4.x-SNAPSHOT" 
+  }
 
 allprojects {
   apply plugin: 'com.jfrog.artifactory'
